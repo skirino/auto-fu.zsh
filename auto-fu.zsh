@@ -288,7 +288,7 @@
 afu_zles=( \
   # Zle widgets should be rebinded in the afu keymap. `auto-fu-maybe' to be
   # called after it's invocation, see `afu-initialize-zle-afu'.
-  self-insert backward-delete-char backward-kill-word kill-line \
+  self-insert backward-delete-char backward-kill-word kill-line backward-kill-line \
   kill-whole-line kill-word magic-space yank \
 )
 
