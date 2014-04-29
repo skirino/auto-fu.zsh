@@ -475,7 +475,7 @@ auto-fu-init () {
     [[ -z ${ps} ]] || POSTDISPLAY="$ps"
 
     afu-recursive-edit-and-accept
-    zle -I
+    zle -R
   } always {
     [[ -z ${ps} ]] || POSTDISPLAY=''
   }
